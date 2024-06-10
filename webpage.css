@@ -149,7 +149,7 @@ a:hover{color: #ffc918;}
     div.home-three div{
         flex-direction: column;
         text-align: justify;
-        width: 63%;
+        width: 67%;
         padding: none;
 
         font-size: 1.5cqw;
@@ -222,12 +222,8 @@ a:hover{color: #ffc918;}
 
         display: flex; 
         flex-direction: column;
-        text-align: center;
-        justify-content: space-evenly;
-
-        font-size: 1.5cqw;
-        color: white;
-
+        align-items: center;
+        justify-content: center;
 
         background-image: url("image/background_4.jpg");
         background-size: cover;
@@ -237,7 +233,23 @@ a:hover{color: #ffc918;}
         font-family: Verdana, Tahoma, sans-serif;
     }
 
-    div.home-four h1{
+    div.home-four div{
+        width: 80%;
+        height: 100%;
+
+        font-size: 1.5cqw;
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        color: white;
+
+    }
+
+    div.home-four div>h1{
         font-size: 2cqw;
         padding: none;
     }
@@ -341,12 +353,13 @@ a:hover{color: #ffc918;}
 
     /*** four ***/
 
-    div.home-four{
+    div.home-four div{
+        width: 67%;
         font-size: 1.3cqh;
     }
 
-    div.home-four h1{
-        font-size: 2cqh;
+    div.home-four div>h1{
+        font-size: 1.5cqh;
     }
 
     
